@@ -5,6 +5,7 @@ import { Spell, SpellType } from '../spell';
 import { Thunderstrike as ThunderstrikeEffect } from '../effects/Thunderstrike';
 
 export class Thunderstrike extends Spell {
+  static description = 'Strike an enemy with recurring lightning strikes, dealing damage over time based on INT. The duration of this effect varies.';
   static element = SpellType.THUNDER;
   static tiers = [
     { name: 'thunderstrike',  spellPower: 2, weight: 40, cost: 500,   level: 35,  profession: 'Mage' },
