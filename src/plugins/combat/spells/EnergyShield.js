@@ -6,6 +6,7 @@ import { Spell, SpellType } from '../spell';
 import { DamageReductionBoost } from '../effects/DamageReductionBoost';
 
 export class EnergyShield extends Spell {
+  static description = 'Creats a magical barrier around an ally, reducing the damage they take for 5 rounds.';
   static element = SpellType.BUFF;
   static tiers = [
     { name: 'energy shield',      spellPower: 100,    weight: 25, cost: 200,  profession: 'Mage', level: 5 },
