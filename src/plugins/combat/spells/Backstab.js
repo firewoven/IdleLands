@@ -3,7 +3,7 @@ import * as _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class Backstab extends Spell {
-   static description = 'Follow your Opening Strike with this attack, uses DEX and STR to deal damage';
+  static description = 'Follow your Opening Strike with this attack, uses DEX and STR to deal damage';
   static element = SpellType.PHYSICAL;
   static stat = 'special';
   static tiers = [
