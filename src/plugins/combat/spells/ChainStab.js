@@ -3,6 +3,7 @@ import * as _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class ChainStab extends Spell {
+  static description = 'Repeatedly stab a target after your backstab, dealing damage based on DEX and STR.';
   static element = SpellType.PHYSICAL;
   static stat = 'special';
   static tiers = [
