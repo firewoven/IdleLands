@@ -3,6 +3,7 @@ import * as _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class Freeleech extends Spell {
+  static description = 'Use your digital powers to sap an opponent\s HP, if they\'re a Bitomancer, you will also get their bandwidth.';
   static element = SpellType.DIGITAL;
   static stat = 'special';
   static tiers = [
