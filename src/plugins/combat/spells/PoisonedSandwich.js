@@ -7,6 +7,7 @@ import { SandwichGenerator } from '../../../shared/sandwich-generator';
 import { PoisonedSandwich as PoisonedSandwichEffect } from '../effects/PoisonedSandwich';
 
 export class PoisonedSandwich extends Spell {
+  static description = 'Feed your enemy a poisoned sandwich, causing damage to them based on you INT and DEX.';
   static element = SpellType.PHYSICAL;
   static tiers = [
     { name: 'poisoned',   spellPower: 3, weight: 30, cost: 85,   level: 15,    profession: 'SandwichArtist' }
