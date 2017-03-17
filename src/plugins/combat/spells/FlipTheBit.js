@@ -3,6 +3,7 @@ import * as _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class FlipTheBit extends Spell {
+  static description = 'Swap the MP and HP of your target.';
   static element = SpellType.DIGITAL;
   static stat = 'special';
   static tiers = [
