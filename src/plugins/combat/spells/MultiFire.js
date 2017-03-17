@@ -3,7 +3,7 @@ import * as _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class MultiFire extends Spell {
-  static description = 'Deliver a blast of fire to multiple enemies, using INT to deal damage.';
+  static description = 'Deliver multiple blasts of fire to your enemies, using INT to deal damage.';
   static element = SpellType.FIRE;
   static tiers = [
     { name: 'double fire',    spellPower: 2,  weight: 40, cost: 250,  level: 25,  profession: 'Mage' },
