@@ -3,7 +3,9 @@ import * as _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class FadeAway extends Spell {
+  
   static element = SpellType.PHYSICAL;
+  static description = 'Fade into the shadows and take a moment to rest, regaining stamina and resetting your combo.';
   static stat = 'special';
   static tiers = [
     { name: 'fade away',         spellPower: 30, weight: 30, cost: 0,  level: 10,  profession: 'Rogue' },
