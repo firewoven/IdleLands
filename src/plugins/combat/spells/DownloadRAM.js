@@ -5,6 +5,7 @@ import { Spell, SpellType } from '../spell';
 import { DownloadedRAM } from '../effects/DownloadedRAM';
 
 export class DownloadRAM extends Spell {
+  static description = 'Download some RAM and get better, faster, and stronger. Costs INT but increases STR, DEX, and AGI.';
   static element = SpellType.DIGITAL;
   static stat = 'special';
   static tiers = [
