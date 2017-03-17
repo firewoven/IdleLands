@@ -3,6 +3,7 @@ import * as _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class DebuffTouch extends Spell {
+  static description = 'Enfeeble your target with necromantic energies, the level of spell determines the full effect..';
   static element = SpellType.DEBUFF;
   static tiers = [
     { name: 'poisontouch',  spellPower: 1, weight: 30, cost: 500,   level: 15,  profession: 'Necromancer' },
