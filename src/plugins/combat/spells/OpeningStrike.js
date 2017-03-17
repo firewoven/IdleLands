@@ -3,6 +3,7 @@ import * as _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class OpeningStrike extends Spell {
+  static description = 'Begin your combo with a precise opening strike, dealing damage based on STR and DEX.';
   static element = SpellType.PHYSICAL;
   static stat = 'special';
   static tiers = [
