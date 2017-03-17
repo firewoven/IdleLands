@@ -8,6 +8,7 @@ import { Sandwich } from '../effects/Sandwich';
 import { Cookie } from '../effects/Cookie';
 
 export class FeedAlly extends Spell {
+  static description = 'Feed your ally a delicious snack, healing them, and buffing their stats.';
   static element = SpellType.PHYSICAL;
   static tiers = [
     { name: 'feed ally',   spellPower: 1, weight: 30, cost: 50,    level: 20,    profession: 'SandwichArtist' },
