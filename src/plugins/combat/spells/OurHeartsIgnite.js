@@ -7,6 +7,7 @@ import { STRBoostValue } from '../effects/STRBoostValue';
 import { INTBoostValue } from '../effects/INTBoostValue';
 
 export class OurHeartsIgnite extends Spell {
+  static description = 'Sing a ballad of comraderie and increase the STR and INT of your allies.';
   static element = SpellType.BUFF;
   static tiers = [
     { name: 'Our Hearts Ignite', spellPower: 15, weight: 25, cost: 200,   profession: 'Bard', level: 1 },
