@@ -5,6 +5,7 @@ import { Spell, SpellType } from '../spell';
 import { DoS as DoSEffect } from '../effects/DoS';
 
 export class DoS extends Spell {
+  static description = 'Engulf your foe in a storm of data, attempting to stun them for a while while they drop packets. ';
   static element = SpellType.DIGITAL;
   static stat = 'special';
   static tiers = [
