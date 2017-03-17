@@ -7,6 +7,7 @@ import { SandwichGenerator } from '../../../shared/sandwich-generator';
 import { Stuffed } from '../effects/Stuffed';
 
 export class DayOldBread extends Spell {
+  static description = 'Serve up a sandwich made with old, disgusting bread, that deals damage based on your DEX.';
   static element = SpellType.PHYSICAL;
   static tiers = [
     { name: 'day-old',    spellPower: 1, weight: 30, cost: 35,   level: 5,    profession: 'SandwichArtist' },
