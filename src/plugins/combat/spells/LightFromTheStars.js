@@ -7,6 +7,7 @@ import { CONBoostValue } from '../effects/CONBoostValue';
 import { LUKBoostValue } from '../effects/LUKBoostValue';
 
 export class LightFromTheStars extends Spell {
+  static description = 'Sing a ballad of the heavens, boosting the CON and LUK of your allies, based on your own values in those stats.';
   static element = SpellType.BUFF;
   static tiers = [
     { name: 'Light From The Stars',   spellPower: 15, weight: 25, cost: 200,   profession: 'Bard', level: 1,
