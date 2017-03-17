@@ -5,6 +5,7 @@ import { Spell, SpellType } from '../spell';
 import { ZeroDay as ZeroDayEffect } from '../effects/ZeroDay';
 
 export class ZeroDay extends Spell {
+  static description = 'Unlease a Zero Day exploit on your opponent, reducing their damage reduction. Other Bitomancers are immune to this exploit.';
   static element = SpellType.DIGITAL;
   static stat = 'special';
   static tiers = [
