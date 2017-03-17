@@ -8,6 +8,7 @@ import { Sandwich } from '../effects/Sandwich';
 import { Cookie } from '../effects/Cookie';
 
 export class FoodFight extends Spell {
+  static description = 'Throw delicious sandwiches at everyone, damaging those you hit and healing those you don\'t. Everyone gets a sandwich though.';
   static element = SpellType.PHYSICAL;
   static tiers = [
     { name: 'food fight',  spellPower: 1, weight: 30, cost: 500,    level: 20,    profession: 'SandwichArtist' },
