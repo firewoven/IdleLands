@@ -6,6 +6,7 @@ import { Spell, SpellType } from '../spell';
 import { STRBoost } from '../effects/STRBoost';
 
 export class ClericStrength extends Spell {
+  static description = 'A buff spell that increases the STR of your allies.';
   static element = SpellType.BUFF;
   static tiers = [
     { name: 'boar strength',    spellPower: 15,  weight: 25, cost: 200,   profession: 'Cleric', level: 15 },
