@@ -3,6 +3,8 @@ import * as _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class Bit extends Spell {
+  static description = 'A basic digital attack that uses INT to deal damage';
+  static element = SpellType.DIGITAL;
   static element = SpellType.DIGITAL;
   static stat = 'special';
   static tiers = [
